@@ -25,3 +25,6 @@ router.put('/ninjas/:id',(request,response)=>{
 router.delete('/ninjas/:id',(request,response)=>{
     response.send({type:'DELETE'});
 })
+
+
+module.exports = router;
