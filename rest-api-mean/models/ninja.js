@@ -7,7 +7,7 @@ const NinjaSchema = new Schema({
         type:String,
         required: [true,'Name is require']
     },
-    rank:{
+    rank:{   
         type:String
     },
     available:{
@@ -16,4 +16,6 @@ const NinjaSchema = new Schema({
     }
 });
 
-const Ninja = mongoose.model('ninja',)
+const Ninja = mongoose.model('ninja',NinjaSchema);
+
+module.exports = Ninja;
