@@ -5,7 +5,7 @@ const Ninja = require('../models/ninja')
 
 //get new ninja from db
 router.get('/ninjas', (req, res, next) => {
-    res.send({ type: 'geting the ninjas' });
+    res.send({type:'GET'});
 })
 
 
